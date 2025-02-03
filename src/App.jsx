@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import Header from "./components/header/Header";
@@ -14,9 +16,10 @@ function App() {
         <Header />
         <main className="main">
           <Routes>
-            <Route path="/order" component={OrderPage} />
-            <Route path="/success" component={SuccessOrderPage} />
-            <Route path="/" component={HomePage} />
+          <Route path="/order" element={<OrderPage />} />
+          <Route path="/success" element={<SuccessOrderPage />} />
+          <Route path="/" element={<HomePage />} />
+
           </Routes>
         </main>
         <Footer />
