@@ -1,0 +1,40 @@
+.header__nav {
+  margin-top: 10px;
+}
+
+.header__nav::before {
+  content: "";
+
+  position: absolute;
+  z-index: 2;
+  top: 56px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-color: #292929;
+}
+
+.header__nav-list {
+  position: relative;
+  z-index: 5;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 25px 0;
+}
+
+.header__nav-item {
+  margin-right: 83px;
+
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.header__nav-link {
+  text-decoration: 0;
+  color: inherit;
+}

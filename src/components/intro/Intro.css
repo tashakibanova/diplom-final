@@ -1,0 +1,48 @@
+.intro {
+  padding-top: 411px;
+  border-bottom: 8px solid #ffa800;
+
+  background-image: url("../../img/backgrounds/intro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.intro__title {
+  max-width: 506px;
+  padding-bottom: 90px;
+  margin-right: 104px;
+}
+
+.intro__subtitle {
+  font-weight: 200;
+}
+
+.intro__form {
+  padding: 18px 24px 60px 24px;
+}
+
+.intro__form-wrapper {
+  flex-direction: column;
+}
+
+.intro__form-title {
+  margin-top: 61px;
+  margin-left: 4px;
+}
+
+.intro__form-field {
+  width: 325px;
+  padding: 19px 73px 11px 21px;
+  margin-top: 7px;
+}
+
+.intro__form-buttons {
+  margin-top: 92px;
+}

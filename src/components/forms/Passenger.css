@@ -1,0 +1,197 @@
+.passenger:nth-child(n + 2) {
+  margin-top: 44px;
+}
+
+.passenger__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.passenger__header--hide {
+  background-color: #ffffff;
+}
+
+.passenger__title {
+  display: flex;
+  align-items: center;
+
+  font-weight: 400;
+  text-transform: none;
+}
+
+.passenger__toggle {
+  display: block;
+
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+  border: 0;
+
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.passenger__toggle--hide {
+  background-image: url("../../img/elements/hide-button.svg");
+}
+
+.passenger__toggle--show {
+  background-image: url("../../img/elements/open-button.svg");
+}
+
+.passenger__delete-button {
+  width: 12px;
+  height: 12px;
+  border: 0;
+
+  background-image: url("../../img/elements/delete-button.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.passenger__form {
+  display: none;
+}
+
+.passenger__form--active {
+  display: block;
+}
+
+.passenger__form-section {
+  padding: 38px 35px 31px 35px;
+  border-top: 1px dashed #928f94;
+}
+
+.passenger__form-list {
+  width: 280px;
+  padding-right: 20px;
+  margin: 0;
+
+  background-image: url("../../img/arrows/select.svg");
+  background-repeat: no-repeat;
+  background-position: right 22px center;
+}
+
+.passenger__form-controls {
+  display: flex;
+  margin-top: 45px;
+}
+
+.passenger__form-title {
+  color: #928f94;
+}
+
+.passenger__form-field--name {
+  width: 280px;
+  margin-right: 25px;
+}
+
+.passenger__radio-group {
+  margin-top: 8px;
+  margin-right: 35px;
+}
+
+.passenger__radio-label {
+  display: inline-block;
+
+  width: 103px;
+  padding: 9px 0 8px 0;
+  border: 1px solid #928f94;
+  border-radius: 5px;
+
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+
+.passenger__radio-label--male {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.passenger__radio-label--female {
+  margin-left: -1px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.passenger__radio-field:checked + .passenger__radio-label {
+  background-color: #ffa800;
+}
+
+.passenger__checkbox {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #928f94;
+  border-radius: 5px;
+}
+
+.passenger__checkbox-text {
+  margin-left: 20px;
+
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.passenger__checkbox:checked {
+  border-color: #ffa800;
+
+  background-image: url("../../img/form/pay-checkbox.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 23px 18px;
+}
+
+.passenger__checkbox:checked ~ .passenger__checkbox-text {
+  color: #ffa800;
+}
+
+.passenger__docs {
+  display: flex;
+}
+
+.passenger__docs .passenger__form-list {
+  padding-top: 16px;
+  padding-bottom: 15px;
+  margin-top: 8px;
+
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.passenger__docs .passenger__form-title {
+  margin-right: 35px;
+}
+
+.passenger-form__form-field--doc::placeholder {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.passenger__form-field--docs,
+.passenger__form-list--passport {
+  width: 205px;
+}
+
+.passenger__form-list--certificate {
+  width: 444px;
+}
+
+.passenger__form-footer {
+  display: flex;
+  justify-content: flex-end;
+
+  padding: 30px 31px;
+  border-top: 1px dashed #928f94;
+}
+
+.passenger__form-button {
+  padding: 12px 24px;
+  border-color: #292929;
+
+  color: #292929;
+}

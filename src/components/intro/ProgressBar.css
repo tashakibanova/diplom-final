@@ -1,0 +1,139 @@
+.order__progress-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 1440px;
+
+  color: #ffffff;
+}
+
+.order__progress-item {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  width: 360px;
+  padding: 23px 0 19px 72px;
+
+  background-color: #3e3c41;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-decoration: 0;
+  color: inherit;
+}
+
+.order__progress-item:first-child::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  right: 359px;
+
+  width: 2000px;
+  height: 98px;
+
+  background-color: #ffa800;
+}
+
+.order__progress-item:last-child::after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 359px;
+
+  width: 2000px;
+  height: 98px;
+
+  background-color: #3e3c41;
+}
+
+.order__progress-item--active.order__progress-item:last-child::after {
+  background-color: #ffa800;
+}
+
+.order__progress-item:first-of-type {
+  padding-left: 0;
+}
+
+.order__progress-item--active {
+  background-color: #ffa800;
+}
+
+.order__progress-icon {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 56px;
+  height: 56px;
+  padding: 10px;
+  margin-right: 28px;
+  border: 3px solid #ffffff;
+  border-radius: 50px;
+}
+
+.order__progress-icon::before {
+  content: "";
+
+  position: absolute;
+  z-index: 3;
+  top: -25px;
+  left: 284px;
+
+  width: 0;
+  height: 0;
+  border-top: 49px solid transparent;
+  border-bottom: 49px solid transparent;
+  border-left: 37px solid #3e3c41;
+}
+
+.order__progress-item--active .order__progress-icon::before {
+  border-left-color: #ffa800;
+}
+
+.order__progress-icon::after {
+  content: "";
+
+  position: absolute;
+  z-index: 2;
+  top: -25px;
+  left: 285px;
+
+  width: 0;
+  height: 0;
+  border-top: 49px solid transparent;
+  border-bottom: 49px solid transparent;
+  border-left: 37px solid #e5e5e5;
+}
+
+.order__progress-item:first-child .order__progress-icon::before {
+  left: 356px;
+}
+
+.order__progress-item:first-child .order__progress-icon::after {
+  left: 357px;
+}
+
+.order__progress-item:last-child .order__progress-icon::before {
+  border: 0;
+}
+
+.order__progress-item:last-child .order__progress-icon::after {
+  border: 0;
+}
+
+.order__progress-stage {
+  display: inline-block;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+}

@@ -1,0 +1,21 @@
+.about {
+  padding: 144px 0 90px 0;
+
+  background-color: #ffffff;
+}
+
+.about__inner {
+  padding: 0px 260px 19px 19px;
+  margin-top: 30px;
+  border-left: 9px solid #ffa800;
+}
+
+.about__content {
+  font-size: 24px;
+  line-height: 28px;
+  white-space: pre-line;
+}
+
+.about__content:nth-child(n + 2) {
+  margin-top: 30px;
+}

@@ -1,0 +1,142 @@
+.verification__form .order__train {
+  margin-top: 0;
+}
+
+.verification__card:nth-child(n + 2) {
+  margin-top: 45px;
+}
+
+.verification__card-wrapper {
+  display: flex;
+
+  border-top: 1px solid #928f94;
+}
+
+.verification__card-title {
+  background-color: #ffffff;
+}
+
+.verification__card-content {
+  width: 677px;
+  padding: 30px 0px 76px 0px;
+  border-right: 1px dashed #e5e5e5;
+}
+
+.verification__card-actions {
+  align-self: flex-end;
+
+  width: 283px;
+  padding: 22px;
+}
+
+.verification__button {
+  padding: 3px 60px;
+  border: 1px solid #292929;
+
+  color: #292929;
+}
+
+.verification__button:hover {
+  color: #ffa800;
+}
+
+.verification__button:active {
+  border-color: #ffa800;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  background-color: #ffa800;
+
+  color: #292929;
+}
+
+.verification__payment {
+  padding: 0 30px;
+}
+
+.passenger__card {
+  display: flex;
+  justify-content: flex-start;
+
+  padding: 30px;
+
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.passenger__card:nth-child(n + 2) {
+  border-top: 1px dashed #e5e5e5;
+}
+
+.passenger__card-title {
+  margin-top: 17px;
+}
+
+.passenger__card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 94px;
+  margin-right: 32px;
+}
+
+.passenger__card-content-title {
+  margin-bottom: 10px;
+}
+
+.passenger__card-content-text {
+  color: #928f94;
+}
+
+.passenger__card-content-text:nth-child(n + 2) {
+  margin-top: 5px;
+}
+
+.verification__total-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 28px;
+}
+
+.verification__total-name {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.verification__total-price-value {
+  padding-right: 30px;
+
+  background-size: 20px 24px;
+
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.verification__form-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.verification__form-button {
+  padding: 17px 57px;
+  margin-top: 123px;
+
+  background-color: #ffa800;
+
+  text-transform: uppercase;
+}
+
+.verification__form-button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.verification__form-button:active {
+  border: 1px solid #ffa800;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  background-color: transparent;
+
+  color: #ffa800;
+}

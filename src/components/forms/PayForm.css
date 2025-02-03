@@ -1,0 +1,127 @@
+.pay-form__wrapper {
+  padding: 30px 35px;
+  border-top: 1px dashed #928f94;
+  border-bottom: 1px dashed #928f94;
+}
+
+.pay-form__form-controls {
+  display: flex;
+}
+
+.pay-form__form-controls--name {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pay-form__form-controls--contacts {
+  flex-direction: column;
+
+  margin-top: 54px;
+}
+
+.pay-form__form-field {
+  display: block;
+
+  width: 280px;
+  padding: 12px 15px;
+  margin-top: 8px;
+  border: 1px solid #928f94;
+  border-radius: 5px;
+
+  font-size: 24px;
+  line-height: 28px;
+  color: #292929;
+}
+
+.pay-form__form-field::placeholder {
+  color: #c4c4c4;
+}
+
+.pay-form__form-field--contact {
+  width: 360px;
+}
+
+.pay-form__form-title--contact:nth-child(n + 2) {
+  margin-top: 38px;
+}
+
+.pay-form__controls-group {
+  padding: 50px 35px 82px 35px;
+  border-top: 1px dashed #928f94;
+}
+
+.pay-form__controls-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #928f94;
+}
+
+.pay-form__controls-title::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+
+  width: 28px;
+  height: 28px;
+  margin-right: 20px;
+  border: 1px solid #928f94;
+  border-radius: 5px;
+}
+
+.pay-form__form-control:checked ~ .pay-form__controls-title::before {
+  border-color: #ffa800;
+
+  background-image: url("../../img/form/pay-checkbox.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 23px 18px;
+}
+
+.pay-form__form-control:checked ~ .pay-form__controls-title {
+  color: #ffa800;
+}
+
+.pay-form__paylist {
+  display: flex;
+
+  margin-top: 30px;
+}
+
+.pay-form__pay-item {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  white-space: pre-line;
+}
+
+.pay-form__pay-item:nth-child(n + 2) {
+  margin-left: 100px;
+}
+
+.pay-form__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pay-form__button {
+  padding: 17px 57px;
+  margin-top: 116px;
+  margin-left: auto;
+
+  background-color: #ffa800;
+
+  text-transform: uppercase;
+}
+
+.pay-form__button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pay-form__button:active {
+  border: 1px solid #ffa800;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  background-color: transparent;
+
+  color: #ffa800;
+}

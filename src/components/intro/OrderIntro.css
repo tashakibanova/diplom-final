@@ -1,0 +1,36 @@
+.order__intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 269px;
+
+  background-image: url("../../img/backgrounds/order.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.order__form {
+  width: 1490px;
+  padding: 28px 40px 76px 40px;
+}
+
+.order__form-wrapper {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.order__form-title {
+  margin-top: 0;
+}
+
+.order__form-field {
+  width: 325px;
+  margin-top: 7px;
+  padding: 19px 73px 11px 21px;
+}
+
+.order__form-buttons {
+  margin-top: 47px;
+}

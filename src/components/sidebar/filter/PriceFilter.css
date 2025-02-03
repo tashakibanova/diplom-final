@@ -1,0 +1,77 @@
+.filter__price {
+  padding: 37px 34px 63px 34px;
+}
+
+.filter__price-title {
+  margin-bottom: 18px;
+
+  font-weight: 400;
+  text-transform: none;
+}
+
+.filter__price-label-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter__price-label {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.filter__price-range {
+  padding-left: 10px;
+}
+
+.filter__price .input-range__label--max .input-range__label-container {
+  left: 0;
+}
+
+.filter__price .input-range__label--min,
+.filter__price .input-range__label--max {
+  top: 35px;
+}
+
+.filter__price .input-range__label--min {
+  left: 1px;
+}
+
+.filter__price .input-range__label--max {
+  right: -17px;
+}
+
+.filter__price .input-range__label--value {
+  top: 8px;
+}
+
+.filter__price .input-range__label {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #e5e5e5;
+}
+
+.filter__price .input-range__track {
+  height: 19px;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+
+  background-color: transparent;
+}
+
+.filter__price .input-range__track--active {
+  border-color: #ffa800;
+
+  background-color: #ffa800;
+}
+
+.filter__price .input-range__slider {
+  width: 24px;
+  height: 24px;
+  margin-top: -21.5px;
+  margin-left: -0.7rem;
+  border: 1px solid #ffffff;
+
+  background-color: #ffffff;
+}

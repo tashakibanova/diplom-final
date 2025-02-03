@@ -1,0 +1,25 @@
+.filter__date {
+  padding: 43px 34px 0px 34px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.filter__date-title {
+  display: block;
+  font-weight: 400;
+
+  text-transform: none;
+}
+
+.filter__date-field {
+  width: 100%;
+  padding: 11px 56px 8px 11px;
+  margin: 10px 0 34px 0;
+
+  background-size: 20px 22px;
+
+  color: #292929;
+}
+
+.filter__date .react-datepicker-wrapper {
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+.seats-select {
+  display: flex;
+  flex-direction: column;
+}
+
+.seats-select__title {
+  margin-bottom: 48px;
+}
+
+.seats-select__button {
+  align-self: flex-end;
+
+  padding: 15px 70px;
+  margin-top: 102px;
+  border-color: #ffa800;
+  border-radius: 5px;
+
+  background-color: #ffa800;
+
+  text-transform: uppercase;
+}

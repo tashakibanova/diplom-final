@@ -1,0 +1,170 @@
+.coach-info {
+  display: flex;
+}
+
+.coach-info-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 32px 74px 32px 30px;
+
+  background-color: #ffd98f;
+}
+
+.coach-number {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.coach-title {
+  padding-left: 10px;
+}
+
+.coach-info-card {
+  padding-top: 33px;
+  margin-left: 85px;
+}
+
+.coach-info-card--seats {
+  width: 158px;
+}
+
+.coach-info-card--price {
+  width: 115px;
+}
+
+.coach-info-card--services {
+  width: 183px;
+}
+
+.coach-info-title {
+  font-size: 18px;
+  line-height: 21px;
+  color: #928f94;
+}
+
+.coach-info-text {
+  margin-top: 24px;
+}
+
+.coach-info-value {
+  padding-right: 25px;
+
+  background-size: 14px 17px;
+
+  font-weight: 700;
+}
+
+.coach-services {
+  margin-top: 17px;
+}
+
+.coach-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  padding: 0 20px 74px 20px;
+}
+
+.coach-demand {
+  width: 199px;
+  padding: 16px;
+  border-radius: 5px;
+
+  background-color: #f3f3f3;
+
+  font-size: 16px;
+  line-height: 19px;
+  color: #292929;
+}
+
+.coach-seats-list {
+  position: relative;
+
+  width: 921px;
+  height: 145px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.coach-seats-list--platzcart {
+  background-image: url("../../../img/classes/platzcart.png");
+}
+
+.coach-seats-list--kupe {
+  background-image: url("../../../img/classes/kupe.png");
+}
+
+.coach-seats-list--lux {
+  background-image: url("../../../img/classes/lux.png");
+}
+
+.coach-seats-list--seat {
+  background-image: url("../../../img/classes/seat.png");
+}
+
+.coach-seat {
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 0;
+
+  background-color: #f2f2f2;
+}
+
+.coach-seat--active {
+  border: 2px solid #ffa800;
+}
+
+.coach-seat:disabled {
+  background-color: #cccccc;
+
+  color: #ffffff;
+}
+
+.coach-seat--top {
+  width: 27px;
+  height: 30px;
+}
+
+.coach-seat--bottom {
+  width: 44px;
+  height: 25px;
+}
+
+.coach-seat--lux {
+  align-items: flex-end;
+
+  width: 27px;
+  height: 59px;
+  padding-bottom: 4px;
+}
+
+.coach-seat--single {
+  width: 27px;
+  height: 19px;
+}
+
+.coach-seat-number {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.coach-total {
+  margin-top: 25px;
+}
+
+.coach-total-value {
+  padding-right: 25px;
+
+  background-size: 14px 17px;
+
+  font-weight: 700;
+  color: #ffa800;
+}

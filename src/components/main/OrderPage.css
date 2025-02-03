@@ -1,0 +1,17 @@
+.order {
+  padding: 95px 0 120px 0;
+}
+
+.order__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.order__sidebar {
+  width: 360px;
+}
+
+.order__options {
+  width: 960px;
+}

@@ -1,0 +1,91 @@
+.footer {
+  padding-top: 49px;
+
+  background-color: #2d2b2f;
+
+  color: #ffffff;
+}
+
+.footer___content {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.footer__wrapper {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
+
+  padding-bottom: 52px;
+}
+
+.footer__section-title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.footer__section--contacts {
+  grid-row: 1/3;
+  grid-column: 1;
+
+  padding-left: 86px;
+}
+
+.footer__section--subscription {
+  grid-row: 1;
+  grid-column: 2;
+
+  padding-bottom: 44px;
+}
+
+.footer__section--socials {
+  grid-row: 2;
+  grid-column: 2;
+
+  padding-bottom: 30px;
+}
+
+.footer__contacts-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 306px;
+  margin-top: 30px;
+}
+
+.footer__contacts-item:last-child {
+  align-items: flex-start;
+}
+
+.footer__contacts-text {
+  width: 240px;
+}
+
+.footer__socials {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 28px;
+}
+
+.footer__socials-item:nth-child(n + 2) {
+  margin-left: 48px;
+}
+
+.footer__social-icon {
+  fill: #e5e5e5;
+}
+
+.footer__social-link:active > .footer__social-icon {
+  fill: #ffca62;
+}
+
+.footer__logo-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 22px 0 33px 0;
+}

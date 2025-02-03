@@ -1,0 +1,41 @@
+.trains__header {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 47px;
+
+  font-size: 18px;
+  line-height: 21px;
+  color: #928f94;
+}
+
+.trains__sort,
+.trains__view,
+.trains__view-list {
+  display: flex;
+  align-items: flex-end;
+}
+
+.trains__view-item {
+  margin-left: 10px;
+
+  cursor: pointer;
+}
+
+.trains__view-item--active {
+  color: #000000;
+}
+
+.trains__sort-list {
+  margin-left: 5px;
+  border: 0;
+
+  background: transparent;
+}
+
+.trains__footer {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-top: 142px;
+}

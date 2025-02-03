@@ -1,0 +1,111 @@
+.details {
+  padding: 34px 0;
+
+  background-color: #3e3c41;
+
+  white-space: pre-line;
+  color: #ffffff;
+}
+
+.details__title {
+  padding-left: 43px;
+  margin-bottom: 30px;
+
+  color: #e5e5e5;
+}
+
+.details .sidebar__inner {
+  border-top: 1px solid #e5e5e5;
+}
+
+.details__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details__info-title {
+  color: #e5e5e5;
+}
+
+.details__info--city {
+  margin-top: 22px;
+}
+
+.details__info--route {
+  flex-direction: column;
+
+  margin-top: 71px;
+}
+
+.details__info-title {
+  font-size: 18px;
+  line-height: 21px;
+  color: #e5e5e5;
+}
+
+.details__info-text {
+  font-weight: 700;
+  text-align: right;
+  text-transform: capitalize;
+}
+
+.details__info-text--route {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.details .route__date {
+  margin-top: 4px;
+  color: #928f94;
+}
+
+.details .route__city {
+  margin-top: 21px;
+}
+
+.details .route__duration {
+  transform: translateY(-25px);
+}
+
+.details__passenger-item {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 18px;
+  line-height: 21px;
+  color: #e5e5e5;
+}
+
+.details__passenger-item:nth-child(n + 2) {
+  margin-top: 22px;
+}
+
+.details__passenger-price-value {
+  padding-right: 21px;
+
+  background-size: 14px 17px;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.details__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  padding: 30px 34px 0 28px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.details__footer-total-value {
+  padding-right: 40px;
+
+  background-size: 26px 32px;
+
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffa800;
+}

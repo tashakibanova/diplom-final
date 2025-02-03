@@ -1,0 +1,338 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  src: local(""),
+    url("./fonts/roboto-v20-latin_cyrillic-100.woff2") format("woff2"),
+    url("./fonts/roboto-v20-latin_cyrillic-100.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""),
+    url("./fonts/roboto-v20-latin_cyrillic-300.woff2") format("woff2"),
+    url("./fonts/roboto-v20-latin_cyrillic-300.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  src: local(""),
+    url("./fonts/roboto-v20-latin_cyrillic-300italic.woff2") format("woff2"),
+    url("./fonts/roboto-v20-latin_cyrillic-300italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("./fonts/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"),
+    url("./fonts/roboto-v20-latin_cyrillic-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    url("./fonts/roboto-v20-latin_cyrillic-500.woff2") format("woff2"),
+    url("./fonts/roboto-v20-latin_cyrillic-500.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("./fonts/roboto-v20-latin_cyrillic-700.woff2") format("woff2"),
+    url("./fonts/roboto-v20-latin_cyrillic-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: local(""),
+    url("./fonts/roboto-v20-latin_cyrillic-900.woff2") format("woff2"),
+    url("./fonts/roboto-v20-latin_cyrillic-900.woff") format("woff");
+}
+
+.App {
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 1417px;
+  margin: 0 auto;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.title--large {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  text-transform: none;
+  color: #ffffff;
+}
+
+.title--middle {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+.title--small {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.button {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+
+  background-color: transparent;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.react-datepicker__tab-loop {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.react-datepicker-popper {
+  z-index: 999 !important;
+}
+
+.currency-item {
+  background-image: url("./img/elements/currency.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.sidebar__inner {
+  padding: 26px 34px 34px 34px;
+}
+
+.sidebar__inner--hide {
+  display: none;
+}
+
+.sidebar__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  padding-left: 44px;
+  margin-bottom: 22px;
+
+  background-repeat: no-repeat;
+}
+
+.sidebar__header--route--to {
+  background-image: url("./img/arrows/sidebar-route-to.svg");
+}
+
+.sidebar__header--route--back {
+  background-image: url("./img/arrows/sidebar-route-back.svg");
+}
+
+.sidebar__header--passengers {
+  background-image: url("./img/elements/passenger.svg");
+}
+
+.sidebar__date {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.sidebar__button {
+  width: 20px;
+  height: 20px;
+  border: 0;
+
+  background-image: url("./img/elements/sidebar-hide-button.svg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+.sidebar__title {
+  text-transform: none;
+}
+
+.route {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.route__info--right {
+  text-align: right;
+}
+
+.route__time {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.route__date {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.route__city {
+  margin-bottom: 3px;
+
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+}
+
+.route__station {
+  font-size: 16px;
+  line-height: 18px;
+  color: #928f94;
+  white-space: pre-line;
+}
+
+.route__duration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.route__duration-time {
+  font-size: 18px;
+  line-height: 21px;
+  color: #c4c4c4;
+}
+
+.service {
+  width: 36px;
+  height: 34.11px;
+  border: 1px solid #292929;
+  border-radius: 5px;
+
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.service:nth-child(n + 2) {
+  margin-left: 13px;
+}
+
+.service:hover {
+  background-color: #ffa800;
+}
+
+.service--active {
+  border-color: #fdb935;
+
+  background-color: #fdb935;
+}
+
+.service:disabled {
+  border-color: #fcdc9d;
+
+  background-color: #fcdc9d;
+}
+
+.air-service {
+  background-image: url("./img/options/air-service.svg");
+}
+
+.air-service:disabled {
+  background-image: url("./img/options/air-service-disable.svg");
+}
+
+.air-service--active {
+  background-image: url("./img/options/air-service-active.svg");
+}
+
+.wifi-service {
+  background-image: url("./img/options/wifi-service.svg");
+}
+
+.wifi-service:disabled {
+  background-image: url("./img/options/wifi-service-disable.svg");
+}
+
+.wifi-service--active {
+  background-image: url("./img/options/wifi-service-active.svg");
+}
+
+.linens-service {
+  background-image: url("./img/options/linen-service.svg");
+}
+
+.linens-service:disabled {
+  background-image: url("./img/options/linen-service-disable.svg");
+}
+
+.linens-service--active {
+  background-image: url("./img/options/linen-service-active.svg");
+}
+
+.food-service {
+  background-image: url("./img/options/food-service.svg");
+}
+
+.food-service:disabled {
+  background-image: url("./img/options/food-service-disable.svg");
+}
+
+.food-service--active {
+  background-image: url("./img/options/food-service-active.svg");
+}
+
+.card {
+  border: 1px solid #c4c4c4;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
+  background-color: #ffffff;
+}
+
+.card__title {
+  padding: 35px;
+
+  background-color: #f9f9f9;
+
+  font-weight: 400;
+  text-transform: none;
+}
+
+.card__form-title {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.card__form-field {
+  display: block;
+
+  padding: 12px 15px;
+  margin-top: 8px;
+  border: 1px solid #928f94;
+  border-radius: 5px;
+
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.card__form-field::placeholder {
+  color: #c4c4c4;
+}

@@ -1,0 +1,71 @@
+.filter__time-form {
+  padding-bottom: 33px;
+}
+
+.filter__time-title {
+  margin-bottom: 21px;
+
+  font-size: 24px;
+  line-height: 28px;
+  color: #e5e5e5;
+}
+
+.filter__time-title:nth-child(n + 2) {
+  margin-top: 84px;
+}
+
+.filter__time-range {
+  padding-left: 10px;
+}
+
+.filter__time .input-range__label--max .input-range__label-container {
+  left: 0;
+}
+
+.filter__time .input-range__label--min,
+.filter__time .input-range__label--max {
+  top: 25px;
+}
+
+.filter__time .input-range__label--min {
+  left: 1px;
+}
+
+.filter__time .input-range__label--max {
+  right: -18px;
+}
+
+.filter__time .input-range__label--value {
+  top: 8px;
+}
+.filter__time .input-range__label {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #e5e5e5;
+}
+
+.filter__time .input-range__track {
+  height: 10px;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+
+  background: transparent;
+}
+
+.filter__time .input-range__track--active {
+  border-color: #ffa800;
+
+  background: #ffa800;
+}
+
+.filter__time .input-range__slider {
+  width: 18px;
+  height: 18px;
+  margin-top: -13.5px;
+  margin-left: -0.7rem;
+  border: 1px solid #ffffff;
+
+  background: #ffffff;
+}

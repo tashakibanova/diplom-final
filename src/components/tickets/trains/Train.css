@@ -1,0 +1,181 @@
+.train {
+  display: flex;
+
+  border: 1px solid #c4c4c4;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+  background-color: #ffffff;
+}
+
+.order__train:nth-child(n + 2) {
+  margin-top: 47px;
+}
+
+.train__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 20%;
+  padding: 32px 18px 24px 18px;
+
+  background-color: #e4e0e9;
+}
+
+.train__logo-icon {
+  margin-bottom: 17px;
+}
+
+.train__title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.train__name {
+  align-self: center;
+
+  margin-bottom: 15px;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #3e3c41;
+}
+
+.train__title-route {
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+}
+
+.train__title-route--default {
+  color: #928f94;
+}
+
+.train__title-route-arrow {
+  margin-left: 3px;
+}
+
+.train__title-route-arrow--default {
+  fill: #928f94;
+}
+
+.train__routes {
+  width: 50%;
+  padding: 32px 39px 24px 39px;
+}
+
+.train__route--back {
+  margin-top: 46px;
+}
+
+.train__route-info {
+  width: 148px;
+}
+
+.train__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  width: 30%;
+  padding: 32px 22px 24px 22px;
+  border-left: 1px dashed #e5e5e5;
+}
+
+.train__seats-list {
+  width: 100%;
+}
+
+.train__seats-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.train__seats-item:nth-child(n + 2) {
+  margin-top: 33px;
+}
+
+.train__seats-type {
+  width: 74px;
+
+  font-size: 16px;
+  line-height: 19px;
+  color: #3e3c41;
+}
+
+.train__seats-count {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #ffa800;
+}
+
+.train__seats-price {
+  font-size: 16px;
+  line-height: 19px;
+  color: #928f94;
+}
+
+.train__seats-price-value {
+  padding-right: 24px;
+  margin-left: 4px;
+
+  background-size: 16px 19px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2d2b2f;
+}
+
+.train__options {
+  margin: 30px 0;
+}
+
+.train__options-icon {
+  fill: #c4c4c4;
+}
+
+.train__options-icon:nth-child(n + 2) {
+  margin-left: 16px;
+}
+
+.train__options,
+.train__seats-button {
+  align-self: flex-end;
+}
+
+.train__seats-button {
+  padding: 6px 20px;
+  border: 1px solid #ffa800;
+
+  background: #ffa800;
+}
+
+.train__seats-button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.train__seats-button:active {
+  border: 1px solid #ffa800;
+
+  background: transparent;
+
+  color: #ffa800;
+}
+
+.train__info-duration {
+  padding-left: 40px;
+
+  background-image: url("../../../img/elements/clock.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+
+  font-size: 18px;
+  line-height: 21px;
+  white-space: pre-line;
+}
